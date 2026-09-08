@@ -5,5 +5,7 @@ elif A>=80 and A<90:
     print("The grade is B")
 elif A < 80 and A>=70:
     print("The grade is C")
-else:
+elif A < 70 and A>=60:
     print("The grade is D")
+else:
+    print("The grade is F")
